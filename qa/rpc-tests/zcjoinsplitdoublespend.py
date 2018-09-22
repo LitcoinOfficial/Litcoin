@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python
 
 #
 # Tests a joinsplit double-spend and a subsequent reorg.
