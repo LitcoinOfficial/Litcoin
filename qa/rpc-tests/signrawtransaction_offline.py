@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python
 
 from test_framework.test_framework import BitcoinTestFramework
 from test_framework.util import assert_equal, assert_true, initialize_chain_clean, start_node
