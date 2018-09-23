@@ -1,24 +1,20 @@
-Zcash 2.0.0
-<img align="right" width="120" height="80" src="doc/imgs/logo.png">
-===========
-
-What is Zcash?
+Litcoin
 --------------
 
-[Zcash](https://z.cash/) is an implementation of the "Zerocash" protocol.
-Based on Bitcoin's code, it intends to offer a far higher standard of privacy
-through a sophisticated zero-knowledge proving scheme that preserves
-confidentiality of transaction metadata. Technical details are available
-in our [Protocol Specification](https://github.com/zcash/zips/raw/master/protocol/protocol.pdf).
+An open and permissionless cryptocurrency with on-demand confidential transactions.
 
-This software is the Zcash client. It downloads and stores the entire history
-of Zcash transactions; depending on the speed of your computer and network
-connection, the synchronization process could take a day or more once the
-blockchain has reached a significant size.
+Why Litcoin?
+-----------------
 
-<p align="center">
-  <img src="doc/imgs/zcashd_screen.gif" height="500">
-</p>
+**Private:** Transact anonymously. Transactional data, such as who is involved in transactions and how much value is transferred, is shielded from the world.
+
+**Decentralized:** Litcoin’s peer to peer network supports transactions without a 3rd party which are recorded on the blockchain and verified through Proof of Work.
+
+**Fast:** Pay and get paid faster than Bitcoin. Transact anonymously without sacrificing transaction speeds.
+
+
+Rest is technical info we will update over time 
+
 
 #### :lock: Security Warnings
 
@@ -29,9 +25,9 @@ See important security warnings on the
 
 ####  :ledger: Deprecation Policy
 
-This release is considered deprecated 16 weeks after the release day. There
+This release is considered deprecated 24 weeks after the release day. There
 is an automatic deprecation shutdown feature which will halt the node some
-time after this 16 week time period. The automatic feature is based on block
+time after this 24 week time period. The automatic feature is based on block
 height.
 
 ## Getting Started
