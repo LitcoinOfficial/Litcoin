@@ -465,7 +465,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Unix: ~/.zcash
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Litcoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Zcash";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -477,10 +477,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectory(pathRet);
-    return pathRet / "Litcoin";
+    return pathRet / "Zcash";
 #else
     // Unix
-    return pathRet / ".litcoin";
+    return pathRet / ".zcash";
 #endif
 #endif
 }
@@ -597,7 +597,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "litcoin.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "zcash.conf"));
     if (!pathConfigFile.is_complete())
         pathConfigFile = GetDataDir(false) / pathConfigFile;
 
