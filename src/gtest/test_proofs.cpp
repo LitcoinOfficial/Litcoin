@@ -369,7 +369,7 @@ TEST(proofs, fq2_invalid)
 
     // q * q + (q - 1) is invalid
     ASSERT_THROW(
-        deserialize_fq2("0925c4b8763cbf9c599a6f7c0348d21cb00b85511637560626edfa5c34c6b38d34cced085b43e2f202a05e52ef18233a3d8371be725c8b8e7774e4b8ffda66f7"),
+        deserialize_fq2("0925c4b8763cbf9c599a6f7c0348d21cb00b85511637560626edfa5c34c6b38d34cced085b43e2f202a05e52ef18433a3d8371be725c8b8e7774e4b8ffda66f7"),
         std::logic_error
     );
 
